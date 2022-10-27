@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kruthik B(website)</title>
+    <link rel="stylesheet" href="stylesheet/style1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <section class="sub-header">
+        <nav class="navbar">
+            <a href="index.html"><img src="images/AMB.jpg" alt="No image"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>ABOUT US</h1>
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>WE ARE THE WORLDS LARGEST UNIVERSIY</h1>
+                <p>
+                    This generator allows to generate random text for testing purposes. If you are the QA Engineer, you, 
+                    probably, have needed at least once to paste any dummy text to test the field in the site, or to test any function, 
+                    or feature, etc. It takes time to find any random text with exact symbols or words you need. But with our generator
+                    you can create random text in several seconds. Usually, the most often used dummy text is the text which begins with 
+                    "Lorem Ipsum". We use this text for our generator too.
+                </p>
+                <a href="" class="hero red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg" alt="about-image">
+            </div>
+        </div>
+    </section>
+
+    <footer class="foot">
+        <h3>ABOUT US</h3>
+        <p>
+            About Random Image Generator Do you want to get some free random images (pictures)?
+            We created this generator, this tool can randomly generate images (pictures) from<br>
+            1.9 million free images (pictures),and we provide powerful filters to help you easily
+            find the images (pictures) you want.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-twitter"></i>
+        </div>
+        <p>copyright &copy;KRUTHIK B 2021</p>
+    </footer>
+
+    <script>
+        var navlinks = document.getElementById("navLinks");
+        function showmenu(){
+            navlinks.style.display='block';
+        }
+        function hidemenu(){
+            navlinks.style.display='none';
+        }
+    </script>
+</body>
+</html>
+
+
